@@ -310,7 +310,7 @@ p {
   width: min(100%, 21rem);
   aspect-ratio: 9 / 19.5;
   justify-self: center;
-  border: 0.55rem solid color-mix(in srgb, var(--md-sys-color-on-surface) 88%, transparent);
+  border: 0.55rem solid #1a1d22;
   border-radius: 36px;
   background: var(--md-sys-color-surface-container-highest);
   box-shadow: var(--md-elevation-3);
@@ -724,11 +724,11 @@ details p {
   .feature-card:nth-child(3),
   .feature-card:nth-child(4) {
     grid-column: auto;
+    border-radius: 28px;
   }
 
   .feature-card {
     min-height: auto;
-    border-radius: 28px;
     padding: 1.2rem;
   }
 
