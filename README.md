@@ -25,7 +25,7 @@ The embedded Google Form URL is defined once near the top of `index.html`:
 
 ```liquid
 <!-- BETA_FORM_EMBED_URL -->
-{% assign beta_form_url = "https://docs.google.com/forms/d/e/PLACEHOLDER/viewform?embedded=true" %}
+{% assign beta_form_url = "https://docs.google.com/forms/d/e/1FAIpQLScSCJReVMRNzUf1-YISM8oSdjYv524J_hwZv4Tg1HhKuhkDQg/viewform?embedded=true" %}
 ```
 
 Replace that value if the Google Form changes. The fallback direct link is derived from the same value.
