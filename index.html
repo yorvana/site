@@ -4,7 +4,7 @@ title: Yorvana
 description: Your service book, owned by you. A privacy-first Android app for keeping vehicle maintenance records on your device.
 ---
 <!-- BETA_FORM_EMBED_URL -->
-<!-- Replace the value below with the real Google Forms embed URL. -->
+<!-- Current closed-beta Google Forms embed URL. Replace this value if the form changes. -->
 {% assign beta_form_url = "https://docs.google.com/forms/d/e/1FAIpQLScSCJReVMRNzUf1-YISM8oSdjYv524J_hwZv4Tg1HhKuhkDQg/viewform?embedded=true" %}
 {% assign beta_form_direct_url = beta_form_url | replace: "?embedded=true", "" %}
 
@@ -89,7 +89,7 @@ description: Your service book, owned by you. A privacy-first Android app for ke
     <p>The beta is for Android users who maintain one or more vehicles and want a private, local-first service log. Testers get early access, try real maintenance workflows, and send feedback through the in-app contact option. Expect rough edges while the app settles.</p>
   </div>
   <div class="form-panel">
-    <iframe src="{{ beta_form_url }}" title="Yorvana closed beta application form" loading="lazy">Loading...</iframe>
+    <iframe src="{{ beta_form_url }}" title="Yorvana closed beta application form" loading="lazy" sandbox="allow-scripts allow-same-origin allow-forms allow-popups">Loading...</iframe>
     <p><a href="{{ beta_form_direct_url }}">Form not loading? Open it directly &rarr;</a></p>
   </div>
 </section>

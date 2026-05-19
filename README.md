@@ -28,15 +28,15 @@ The embedded Google Form URL is defined once near the top of `index.html`:
 {% assign beta_form_url = "https://docs.google.com/forms/d/e/PLACEHOLDER/viewform?embedded=true" %}
 ```
 
-Replace that value with the real Google Forms embed URL. The fallback direct link is derived from the same value.
+Replace that value if the Google Form changes. The fallback direct link is derived from the same value.
 
 ## Screenshots
 
-Add production screenshots to `assets/screenshots/` using this naming convention:
+Production screenshots live in `assets/screenshots/` and are referenced directly from `index.html`:
 
-- `01-vehicle-list.png`
-- `02-record-detail.png`
-- `03-add-service-record.png`
-- `04-settings.png`
+- `vehicle-list.png`
+- `vehicle-history.png`
+- `add-service-record.png`
+- `record-detail-attachment.png`
 
-The landing page currently reserves fixed phone-ratio placeholder slots so screenshots can be dropped in later without changing the layout.
+Keep replacements at phone screenshot proportions so the landing page grid remains stable.
