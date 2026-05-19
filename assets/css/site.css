@@ -431,7 +431,7 @@ details p,
 }
 
 .screenshots-section {
-  width: min(calc(100% - 1rem), 1280px);
+  width: min(calc(100% - 1rem), var(--max-width));
   border-radius: 48px;
   padding-inline: clamp(0.5rem, 2vw, 2rem);
   background: var(--md-sys-color-surface-container-low);
@@ -477,8 +477,6 @@ figcaption {
 .beta-copy {
   display: grid;
   gap: 1rem;
-  position: sticky;
-  top: calc(var(--header-height) + 2rem);
 }
 
 .form-panel {

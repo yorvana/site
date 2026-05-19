@@ -17,5 +17,21 @@
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
 <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
-<link rel="preload" href="{{ '/assets/css/site.css' | relative_url }}" as="style">
 <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Yorvana",
+  "applicationCategory": "LifestyleApplication",
+  "operatingSystem": "Android",
+  "description": {{ site.description | jsonify }},
+  "url": {{ '/' | absolute_url | jsonify }},
+  "image": {{ '/assets/img/og-card.png' | absolute_url | jsonify }},
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
