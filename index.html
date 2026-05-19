@@ -23,7 +23,10 @@ description: Your service book, owned by you. A privacy-first Android app for ke
     </div>
   </div>
   <div class="phone-mockup" aria-label="Yorvana app preview">
-    <img class="hero-app-preview" src="{{ '/assets/screenshots/vehicle-history-hero.png' | relative_url }}" alt="Yorvana service history screen" width="672" height="1493" decoding="async" fetchpriority="high">
+    <picture>
+      <source srcset="{{ '/assets/screenshots/vehicle-history-hero-dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+      <img class="hero-app-preview" src="{{ '/assets/screenshots/vehicle-history-hero.png' | relative_url }}" alt="Yorvana service history screen" width="672" height="1493" decoding="async" fetchpriority="high">
+    </picture>
   </div>
 </section>
 
@@ -63,19 +66,31 @@ description: Your service book, owned by you. A privacy-first Android app for ke
   </div>
   <div class="screenshot-grid">
     <figure class="screenshot-slot">
-      <img src="{{ '/assets/screenshots/vehicle-list.png' | relative_url }}" alt="Yorvana vehicle list screen" width="1080" height="2400" loading="lazy">
+      <picture>
+        <source srcset="{{ '/assets/screenshots/vehicle-list-dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+        <img src="{{ '/assets/screenshots/vehicle-list.png' | relative_url }}" alt="Yorvana vehicle list screen" width="1080" height="2400" loading="lazy">
+      </picture>
       <figcaption>Vehicle list</figcaption>
     </figure>
     <figure class="screenshot-slot">
-      <img src="{{ '/assets/screenshots/vehicle-history.png' | relative_url }}" alt="Yorvana vehicle service history screen" width="1080" height="2400" loading="lazy">
+      <picture>
+        <source srcset="{{ '/assets/screenshots/vehicle-history-dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+        <img src="{{ '/assets/screenshots/vehicle-history.png' | relative_url }}" alt="Yorvana vehicle service history screen" width="1080" height="2400" loading="lazy">
+      </picture>
       <figcaption>Service history</figcaption>
     </figure>
     <figure class="screenshot-slot">
-      <img src="{{ '/assets/screenshots/add-service-record.png' | relative_url }}" alt="Yorvana add service record screen" width="1080" height="2400" loading="lazy">
+      <picture>
+        <source srcset="{{ '/assets/screenshots/add-service-record-dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+        <img src="{{ '/assets/screenshots/add-service-record.png' | relative_url }}" alt="Yorvana add service record screen" width="1080" height="2400" loading="lazy">
+      </picture>
       <figcaption>Add service record</figcaption>
     </figure>
     <figure class="screenshot-slot">
-      <img src="{{ '/assets/screenshots/record-detail-attachment.png' | relative_url }}" alt="Yorvana service record detail with attachment" width="1080" height="2400" loading="lazy">
+      <picture>
+        <source srcset="{{ '/assets/screenshots/record-detail-attachment-dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+        <img src="{{ '/assets/screenshots/record-detail-attachment.png' | relative_url }}" alt="Yorvana service record detail with attachment" width="1080" height="2400" loading="lazy">
+      </picture>
       <figcaption>Record with attachment</figcaption>
     </figure>
   </div>

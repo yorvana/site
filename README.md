@@ -35,8 +35,14 @@ Replace that value if the Google Form changes. The fallback direct link is deriv
 Production screenshots live in `assets/screenshots/` and are referenced directly from `index.html`:
 
 - `vehicle-list.png`
+- `vehicle-list-dark.png`
 - `vehicle-history.png`
+- `vehicle-history-dark.png`
+- `vehicle-history-hero.png`
+- `vehicle-history-hero-dark.png`
 - `add-service-record.png`
+- `add-service-record-dark.png`
 - `record-detail-attachment.png`
+- `record-detail-attachment-dark.png`
 
-Keep replacements at phone screenshot proportions so the landing page grid remains stable.
+Gallery replacements should stay at phone screenshot proportions so the landing page grid remains stable. Hero screenshots are cropped from the service history screen and should keep the current `672x1493` dimensions.
