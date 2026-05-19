@@ -1,0 +1,134 @@
+---
+layout: default
+description: Your service book, owned by you. A privacy-first Android app for keeping vehicle maintenance records on your device.
+---
+<!-- BETA_FORM_EMBED_URL -->
+<!-- Current closed-beta Google Forms embed URL. Replace this value if the form changes. -->
+{% assign beta_form_url = "https://docs.google.com/forms/d/e/1FAIpQLScSCJReVMRNzUf1-YISM8oSdjYv524J_hwZv4Tg1HhKuhkDQg/viewform?embedded=true" %}
+{% assign beta_form_direct_url = beta_form_url | replace: "?embedded=true", "" %}
+
+<section class="hero section-band" id="top" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow">Your service book, owned by you.</p>
+    <h1 id="hero-title">Yorvana keeps vehicle maintenance private, portable, and close at hand.</h1>
+    <p class="hero-pitch">A privacy-first vehicle maintenance log where your records stay on your device and remain easy to back up or move.</p>
+    <div class="hero-actions" aria-label="Primary actions">
+      <a class="button button-primary" href="#beta">Join the closed beta</a>
+      <a class="button button-tonal" href="#features">See how it works</a>
+    </div>
+    <div class="hero-pills" aria-label="Yorvana principles">
+      <span>Local-first</span>
+      <span>No account</span>
+      <span>Easy backup</span>
+    </div>
+  </div>
+  <div class="phone-mockup" aria-label="Yorvana app preview">
+    <picture>
+      <source srcset="{{ '/assets/screenshots/vehicle-history-hero-dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+      <img class="hero-app-preview" src="{{ '/assets/screenshots/vehicle-history-hero.png' | relative_url }}" alt="Yorvana service history screen" width="672" height="1493" decoding="async" fetchpriority="high">
+    </picture>
+  </div>
+</section>
+
+<section class="section-band" id="features" aria-labelledby="features-title">
+  <div class="section-heading">
+    <p class="eyebrow">Features</p>
+    <h2 id="features-title">Built around local-first ownership.</h2>
+  </div>
+  <div class="feature-grid">
+    <article class="feature-card">
+      <span class="feature-token" aria-hidden="true">01</span>
+      <h3>You own your data.</h3>
+      <p>Your service history stays in a folder you choose, so it is simple to back up, sync, or move to another phone.</p>
+    </article>
+    <article class="feature-card">
+      <span class="feature-token" aria-hidden="true">02</span>
+      <h3>No account, no cloud.</h3>
+      <p>Nothing leaves your device unless you move it yourself.</p>
+    </article>
+    <article class="feature-card">
+      <span class="feature-token" aria-hidden="true">03</span>
+      <h3>Multi-vehicle.</h3>
+      <p>Track service history for every car in the family.</p>
+    </article>
+    <article class="feature-card">
+      <span class="feature-token" aria-hidden="true">04</span>
+      <h3>Receipts &amp; attachments.</h3>
+      <p>Photos and invoices stay attached to the records they explain.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section-band screenshots-section" id="screenshots" aria-labelledby="screenshots-title">
+  <div class="section-heading">
+    <p class="eyebrow">Screenshots</p>
+    <h2 id="screenshots-title">See Yorvana in use.</h2>
+  </div>
+  <div class="screenshot-grid">
+    <figure class="screenshot-slot">
+      <picture>
+        <source srcset="{{ '/assets/screenshots/vehicle-list-dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+        <img src="{{ '/assets/screenshots/vehicle-list.png' | relative_url }}" alt="Yorvana vehicle list screen" width="1080" height="2400" loading="lazy">
+      </picture>
+      <figcaption>Vehicle list</figcaption>
+    </figure>
+    <figure class="screenshot-slot">
+      <picture>
+        <source srcset="{{ '/assets/screenshots/vehicle-history-dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+        <img src="{{ '/assets/screenshots/vehicle-history.png' | relative_url }}" alt="Yorvana vehicle service history screen" width="1080" height="2400" loading="lazy">
+      </picture>
+      <figcaption>Service history</figcaption>
+    </figure>
+    <figure class="screenshot-slot">
+      <picture>
+        <source srcset="{{ '/assets/screenshots/add-service-record-dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+        <img src="{{ '/assets/screenshots/add-service-record.png' | relative_url }}" alt="Yorvana add service record screen" width="1080" height="2400" loading="lazy">
+      </picture>
+      <figcaption>Add service record</figcaption>
+    </figure>
+    <figure class="screenshot-slot">
+      <picture>
+        <source srcset="{{ '/assets/screenshots/record-detail-attachment-dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+        <img src="{{ '/assets/screenshots/record-detail-attachment.png' | relative_url }}" alt="Yorvana service record detail with attachment" width="1080" height="2400" loading="lazy">
+      </picture>
+      <figcaption>Record with attachment</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section-band beta-section" id="beta" aria-labelledby="beta-title">
+  <div class="beta-copy">
+    <p class="eyebrow">Closed beta</p>
+    <h2 id="beta-title">Help shape Yorvana before launch.</h2>
+    <p>The beta is for Android users who maintain one or more vehicles and want a private, local-first service log. Testers get early access, try real maintenance workflows, and send feedback through the in-app contact option. Expect rough edges while the app settles.</p>
+  </div>
+  <div class="form-panel">
+    <iframe src="{{ beta_form_url }}" title="Yorvana closed beta application form" loading="lazy" sandbox="allow-scripts allow-same-origin allow-forms allow-popups">Loading...</iframe>
+    <p><a href="{{ beta_form_direct_url }}">Form not loading? Open it directly &rarr;</a></p>
+  </div>
+</section>
+
+<section class="section-band" id="faq" aria-labelledby="faq-title">
+  <div class="section-heading">
+    <p class="eyebrow">FAQ</p>
+    <h2 id="faq-title">A few details before you apply.</h2>
+  </div>
+  <div class="faq-list">
+    <details>
+      <summary>Is Yorvana free?</summary>
+      <p>Yorvana is planned as freemium: 1 vehicle free, with unlimited vehicles available through a one-time lifetime purchase after beta.</p>
+    </details>
+    <details>
+      <summary>Where is my data stored?</summary>
+      <p>On your device, in a folder you pick. Nothing is uploaded by Yorvana.</p>
+    </details>
+    <details>
+      <summary>Will there be iOS?</summary>
+      <p>Not at launch. The architecture does not preclude it.</p>
+    </details>
+    <details>
+      <summary>How do I leave the beta?</summary>
+      <p>Uninstall Yorvana, or opt out through the Play closed-test page. Your local data stays where you put it.</p>
+    </details>
+  </div>
+</section>

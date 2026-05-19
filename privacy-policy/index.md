@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: page
 title: Privacy Policy
+description: How Yorvana handles your data - what's stored, what isn't, and your rights.
+og_type: article
 ---
 
 # Privacy Policy for Yorvana
