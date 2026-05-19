@@ -640,7 +640,9 @@ details p {
 
   .feature-card,
   .feature-card:nth-child(1),
-  .feature-card:nth-child(2) {
+  .feature-card:nth-child(2),
+  .feature-card:nth-child(3),
+  .feature-card:nth-child(4) {
     grid-column: span 1;
   }
 
