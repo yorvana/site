@@ -5,7 +5,7 @@
 <meta name="description" content="{{ page.description | default: site.description }}">
 <meta name="theme-color" content="#012459">
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="{{ page.og_type | default: "website" }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page_meta_title }}">
 <meta property="og:description" content="{{ page.description | default: site.description }}">
@@ -19,6 +19,7 @@
 
 <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
 <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+{% if page.url == '/' %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -36,3 +37,4 @@
   }
 }
 </script>
+{% endif %}
